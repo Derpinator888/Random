@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'MSpain';
+  src: url('Fonts/karma.future-regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'ModeSeven';
+  src: url('Fonts/karma.suture-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  padding: 25px;
+  background-color: black;
+  font-family: 'MSpain', sans-serif;
+}
+.title {
+	color: #ffffff;
+    font-family: 'MSpain', sans-serif;    font-weight: normal;    -webkit-font-smoothing: none;
+    font-smooth: never;
+    text-rendering: geometricPrecision;
+    -webkit-text-stroke: 0px;
+    font-size: 48px;
+}
+.subtitle {
+	color: #ffffff;
+    font-family: 'MSpain', sans-serif;    font-weight: normal;    -webkit-font-smoothing: none;
+    font-smooth: never;
+    text-rendering: geometricPrecision;
+    -webkit-text-stroke: 0px;
+    font-size: 32px;
+}
+.link {
+	color: #7eff79;
+    font-family: 'MSpain', sans-serif;    font-weight: normal;    -webkit-font-smoothing: none;
+    font-smooth: never;
+    text-rendering: geometricPrecision;
+    -webkit-text-stroke: 0px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.paragraph {
+	color: #ffffff;
+    font-family: 'ModeSeven', sans-serif;
+}
